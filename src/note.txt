@@ -1,0 +1,28 @@
+images comes from the movie database
+tmdb to get api keay 
+
+
+for functional base "useState"
+
+for class base normal state  " consteracter"
+
+to fetch in class we useEffect
+"component did mount "
+to fetch in function we us 
+"useEffect"
+
+226a392e3ed2d3ae6de92b85a1074c73
+
+
+Optional chaining: (?.)
+
+The optional chaining operator (?.) enables you to 
+read the value of a property located deep within a 
+chain of connected objects without having to 
+check that each reference in the chain is valid.
+
+{truncate(movie?.overview, 150)}
+
+  function truncate(string, number) {
+    return string?.length > number ? string.substring(0, number - 1) + "..." : string;
+}
