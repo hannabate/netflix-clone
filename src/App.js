@@ -1,10 +1,9 @@
 // import logo from './logo.svg';
-import requests from './requests';
-import './App.css';
-import Row from './Row';
-import Banner from './Banner';
-import Nav from './Nav';
-
+import requests from "./requests";
+import "./App.css";
+import Row from "./Row";
+import Banner from "./Banner";
+import Nav from "./Nav";
 
 function App() {
   return (
@@ -14,7 +13,7 @@ function App() {
       <Row
         title="NETFLIX ORIGINALS"
         fetchUrl={requests.fetchNetflixOriginals}
-        isLargeRow
+        largeRow
       />
       <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
       <Row title="Top Rated" fetchUrl={requests.fetchTopRatedMovies} />
@@ -32,4 +31,3 @@ function App() {
 }
 
 export default App;
-
